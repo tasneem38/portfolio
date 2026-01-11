@@ -1,53 +1,72 @@
-# Personal Developer Portfolio 🚀
 
-[![Site preview](/public/assets/thumbnail.png)](https://figma-portfolio-ten.vercel.app/)
+# ⚡ Tasneem Banu - Developer Portfolio
 
-Welcome to my developer portfolio! This project showcases my skills, projects, and experience as a Software Engineer and UI/UX Designer. Built with [Next.js](https://nextjs.org/), [TypeScript](https://www.typescriptlang.org/), and [Tailwind CSS](https://tailwindcss.com). It not only provides a visually appealing representation of my work but also ensures optimal performance. View the [live site](https://figma-portfolio-ten.vercel.app/).
+A modern, high-performance developer portfolio built with **Next.js**, **Tailwind CSS**, and **Framer Motion**.  
+Designed to showcase my projects in Web Development, Data Analytics, and VR.
 
-# Features 🎉
+![Portfolio Banner](public/assets/TASNEEM_Profile%201.jpg) 
+<!-- You can replace the above link with a screenshot of your actual site banner later -->
 
-The whole [portfolio](https://figma-portfolio-ten.vercel.app/) is a React-based single page app built with Next.js in TypeScript, using only statically generated pages.
+## 🚀 Features
 
-- **Modern Design**: Beautiful, dark-themed UI designed in Figma with purple gradient accents
-- **Animated Typing Effect**: Dynamic text animation in the hero section that cycles through roles
-- **Responsive Layout**: Fully responsive design that works seamlessly on all devices
-- **Performance Optimized**: Built with Next.js 16 for optimal performance and SEO
-- **Project Showcase**: Featured projects section with detailed descriptions and links
-- **Smooth Animations**: Engaging user experience with smooth transitions and effects
-- **Analytics Integration**: Vercel Analytics for tracking website performance
+-   **Modern & Responsive Design**: sleek dark mode with neon accents, fully responsive across all devices.
+-   **Detailed Project Pages**: Dedicated pages for featured projects like *CarbonLens* and *BharatVerse* with deep-dive technical details.
+-   **Smooth Animations**: Implemented using `framer-motion` for scroll-triggered fades, staggered lists, and interactive hover effects.
+-   **Optimized Performance**: Built on Next.js 14 for server-side rendering and lightning-fast page loads.
 
-# Fonts ✍🏻
+## 🛠️ Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load [Poppins](https://fonts.google.com/specimen/Poppins), a custom Google Font with multiple weights (300-900).
+-   **Framework**: [Next.js 14](https://nextjs.org/) (App Router)
+-   **Language**: [TypeScript](https://www.typescriptlang.org/)
+-   **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+-   **Animations**: [Framer Motion](https://www.framer.com/motion/)
+-   **Icons**: [Lucide React](https://lucide.dev/)
+-   **Deployment**: [Vercel](https://vercel.com/)
 
-# Project images 🖼️
-
-All project images live under `public/projects` and are referenced in the `Projects.tsx` component. The assets folder contains all icons, images, and other media files used throughout the portfolio.
-
-# ✨ Development
+## 📂 Project Structure
 
 ```bash
-git clone git@github.com:ibrahimmemonn/Figma_Portfolio.git
-
-cd Figma_Portfolio/
-
-npm i
-
-npm run dev
+├── app/
+│   ├── components/   # Reusable UI components (Banner, Experience, Projects)
+│   ├── data/         # Centralized content (info.ts)
+│   ├── projects/     # Dedicated case study pages
+│   └── layout.tsx    # Root layout & metadata
+├── public/           # Static assets (images, icons)
+└── ...
 ```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🏃‍♂️ Getting Started
 
-# 🚚 Deployment
+1.  **Clone the repository**:
+    ```bash
+    git clone https://github.com/tasneem38/portfolio.git
+    cd portfolio
+    ```
 
-Every branch or Pull Request is automatically deployed by [Vercel](https://vercel.com/) with their GitHub integration, where the `main` branch is automatically aliased to [figma-portfolio-ten.vercel.app](https://figma-portfolio-ten.vercel.app/). A link to a preview deployment will appear under each Pull Request.
+2.  **Install dependencies**:
+    ```bash
+    npm install
+    ```
 
-# 🏛 Licenses
+3.  **Run the development server**:
+    ```bash
+    npm run dev
+    ```
 
-© Copyright 2025 Ibrahim Memon
+4.  Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-Don't care if you fork & play with it, but you're not allowed to publish anything from it as a whole without my written permission. Also please be aware, the combination of typography, colors & layout makes up my brand identity. So please don't just clone everything, but rather do a remix!
+## 🌟 Featured Projects
+
+1.  **CarbonLens**: AI-powered eco-tracker using Llama 3.1.
+2.  **BharatVerse**: Virtual reality heritage exploration platform.
+3.  **Smart Community Health**: Data analytics dashboard for community health metrics.
+
+## 📬 Contact
+
+-   **LinkedIn**: [Tasneem Banu](https://www.linkedin.com/in/tasneem-banu38)
+-   **Email**: sh29tasneem@gmail.com
+-   **GitHub**: [tasneem38](https://github.com/tasneem38)
 
 ---
 
-⭐ If you found this project helpful or interesting, please consider giving it a star!
+*Built with ❤️ by Tasneem Banu*
