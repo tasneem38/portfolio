@@ -65,13 +65,3 @@ Designed to showcase my projects in Web Development, Data Analytics, and VR.
 -   **GitHub**: [tasneem38](https://github.com/tasneem38)
 
 ---
-
-*Built with ❤️ by Tasneem Banu*
-
-## Credits
-
-- Portfolio template adapted from  
-  **[Ibrahim Memnonn](https://github.com/ibrahimmemonn)**  
-  Repository: https://github.com/ibrahimmemonn/Figma-Portfolio
-
----
