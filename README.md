@@ -4,9 +4,6 @@
 A modern, high-performance developer portfolio built with **Next.js**, **Tailwind CSS**, and **Framer Motion**.  
 Designed to showcase my projects in Web Development, Data Analytics, and VR.
 
-![Portfolio Banner](public/assets/TASNEEM_Profile%201.jpg) 
-<!-- You can replace the above link with a screenshot of your actual site banner later -->
-
 ## 🚀 Features
 
 -   **Modern & Responsive Design**: sleek dark mode with neon accents, fully responsive across all devices.
@@ -25,7 +22,7 @@ Designed to showcase my projects in Web Development, Data Analytics, and VR.
 
 ## 📂 Project Structure
 
-```bash
+```
 ├── app/
 │   ├── components/   # Reusable UI components (Banner, Experience, Projects)
 │   ├── data/         # Centralized content (info.ts)
@@ -38,18 +35,18 @@ Designed to showcase my projects in Web Development, Data Analytics, and VR.
 ## 🏃‍♂️ Getting Started
 
 1.  **Clone the repository**:
-    ```bash
+    ```
     git clone https://github.com/tasneem38/portfolio.git
     cd portfolio
     ```
 
 2.  **Install dependencies**:
-    ```bash
+    ```
     npm install
     ```
 
 3.  **Run the development server**:
-    ```bash
+    ```
     npm run dev
     ```
 
@@ -70,3 +67,11 @@ Designed to showcase my projects in Web Development, Data Analytics, and VR.
 ---
 
 *Built with ❤️ by Tasneem Banu*
+
+## Credits
+
+- Portfolio template adapted from  
+  **[Ibrahim Memnonn](https://github.com/ibrahimmemonn)**  
+  Repository: https://github.com/ibrahimmemonn/Figma-Portfolio
+
+---
